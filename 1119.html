@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>詹子儀 Denny 的 MIS 自我介紹</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0d0d0f;
+            color: #e0e0e0;
+        }
+        header {
+            background: linear-gradient(90deg, #4b0082, #8a2be2);
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.6);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: inline-block;
+            font-weight: bold;
+            transition: 0.3s ease;
+            border-radius: 8px;
+        }
+        nav a:hover {
+            background: rgba(255,255,255,0.16);
+            box-shadow: 0 0 12px #b48cff;
+            transform: translateY(-3px);
+        }
+        .banner {
+            background: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1350&q=80') center/cover;
+            padding: 100px 20px;
+            text-align: center;
+            color: #fff;
+            box-shadow: inset 0 0 200px rgba(0,0,0,0.8);
+        }
+        .banner h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        .banner p {
+            font-size: 1.4rem;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        .section {
+            background: #1a1a1d;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            border-left: 6px solid #b48cff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.8s forwards;
+        }
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h2 {
+            color: #caa5ff;
+            border-bottom: 2px solid #8a2be2;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        a.dept-link {
+            color: #b48cff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a.dept-link:hover {
+            text-shadow: 0 0 10px #d8b4ff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#summary">🎯 核心總結</a>
+        <a href="#skills">📚 專業基石</a>
+        <a href="#projects">🛠️ 實戰成果</a>
+        <a href="#future">📈 未來展望</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h1>詹子儀 Denny</h1>
+    <p>MIS 跨域整合者 / 資訊 × 管理雙引擎人才</p>
+</div>
+
+<div class="container">
+    <div class="section" id="summary">
+        <h2>🎯 核心總結：我是誰？</h2>
+        <p>大家好，我是 <strong>詹子儀 Denny</strong>，就讀於勤益科大資訊管理系。我擅長以邏輯分析與系統思維解決問題，並把資訊技術應用在實際的管理情境中，創造真正對企業有價值的資訊系統。</p>
+        <p>想了解更多科系資訊，請點 <a class="dept-link" href="https://mis.ncut.edu.tw/index.php?Lang=zh-tw" target="_blank">這裡進入資訊管理系官網</a>。</p>
+        <p>推薦觀看一個我覺得很有趣的影片：<a class="dept-link" href="https://www.youtube.com/watch?v=FxfEzHiIgQU&list=RDFxfEzHiIgQU&start_radio=1" target="_blank">點我欣賞精彩影片</a></p>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>📚 專業基石：我的 MIS 課程地圖</h2>
+        <ul>
+            <li><strong>管理知識：</strong>企業管理、行銷學、生產管理、策略管理。</li>
+            <li><strong>技術能力：</strong>HTML、CSS、Python、資料結構、物件導向程式設計。</li>
+            <li><strong>資訊系統：</strong>資料庫（SQL）、系統分析與設計、ERP、商業智慧基礎。</li>
+        </ul>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>🛠️ 實戰成果：我的專案與技能</h2>
+        <ul>
+            <li>網站前端與版面設計（HTML / CSS / JavaScript）</li>
+            <li>後端邏輯與資料處理（Python、Django / Flask）</li>
+            <li>資料分析與視覺化（Pandas、Matplotlib）</li>
+            <li>資料庫設計（MySQL / SQL Server）</li>
+        </ul>
+        <p>實務專題 — <strong>[專題名稱]</strong>：主要聚焦於 <strong>[專題主題]</strong> 開發，擔任 <strong>[角色]</strong>。</p>
+    </div>
+
+    <div class="section" id="future">
+        <h2>📈 未來展望：我的目標與價值</h2>
+        <p>我希望未來能朝向商業智慧（BI）、資料分析或系統分析方向發展，將 MIS 的跨域能力帶入企業環境中。</p>
+    </div>
+</div>
+
+</body>
+</html>
